@@ -79,8 +79,12 @@ a {
     
     .hamb {
         display: none;
-    }
+    }  
 
+    .data {
+        display: none;
+    }
+    
     .banner {   
         top: 0; left: 0;
         height: auto;
@@ -191,34 +195,30 @@ a {
     }
     
     .paramais {
-        width: 10%;
+        width: 5%;
         box-sizing: border-box;
         text-align: center;
-        height: 130px;
+        height: 65px;
         box-sizing: border-box;
         color: white;
-        padding: 0.8em;
         margin-bottom: 5%;
         cursor: pointer;
         font-size: 1em;
         margin-left: auto;
         margin-right: auto;
         border-radius: 10em;
-        border: 2px solid white;
-        
-    }    
+        border: 1px solid white;   
+    }     
     
     .more {
         background-image: url(../imagens/more.png);
-        background-size: contain;
-        padding: 2em;
+        background-size: contain;    
+        background-repeat: no-repeat;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 22%;
         width: 30px;
         height: 30px;
-    }
-    
-    .paramais:hover {
-        background-color: #D0D0D0;
-        color: #161f27;
     }
     
     .botao:active {
@@ -231,7 +231,7 @@ a {
         text-align: center;
     }
     
-    #header {
+    .header {
         width: 100%;
         height: 55px;
         position: fixed;
@@ -279,7 +279,7 @@ a {
     }
     
     .botao {
-        height: 45px;
+        height: 51px;
         width: 100%;
         box-sizing: border-box;
         text-align: center;
@@ -292,7 +292,7 @@ a {
         
     .botao1 {
         width: 100%;
-        height: 45px;
+        height: 51px;
         box-sizing: border-box;
         text-align: center;
         background-color: #161f27;
@@ -303,7 +303,7 @@ a {
     }
     
     .botao2 {
-        height: 45px;
+        height: 51px;
         box-sizing: border-box;
         text-align: center;
         background-color: #161f27;
@@ -353,36 +353,62 @@ a {
     
     .question {
         box-sizing: border-box;
-        width: 100%;
-        
-        padding: 1em;
-        font-family: Raleway-Bold;
-        font-size: 1em;
-        background-color: white;
-        margin-bottom: 1%;
+        width: 5%;
+        height: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#3A5FCD;
+        color: #4682B4;
+        font-family: Raleway-SemiBold;
+        box-shadow: 2px 2px 2px grey;
+        font-size: 1.1em;
+        padding-top: 0.1em;
+        padding-right: auto;
+        padding-left: auto;
+        color: black;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-bottom: 2%;
+        cursor: pointer;
     }
     
     .provedor {
         box-sizing: border-box;
-        display: inline-block;
         color: black;
-        margin-top: 5px;
         text-align: justify;
         width: 100%;
-        height: 300px;
+        height:160px;
+        font-size: 1em;
+        font-family: gadugi;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 1%;
+        box-shadow: 2px 2px 2px grey;
+        background-color:white;
+    }
+    
+    .provedor2 {
+        box-sizing: border-box;
+        display: inline-block;
+        color: black;
+        margin-top: 2px;
+        text-align: justify;
+        width: 100%;
+        height:260px;
         font-size: 1em;
         padding-left: 2em;
         padding-right: 2em;
-        padding-top: 2%;
+        padding-top: 1%;
+        margin-bottom: 2%;
         background-color: rgba(256, 256, 256, 0.6);   
     }
     
     .infoicon {
         box-sizing: border-box;
         display: inline-block;
-        width: 100%;
-        height: 94px;
-        background-image: url('../imagens/information.png');
+        width: 16px;
+        height: 16px;
+        background-image: url('../imagens/infow.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
@@ -453,10 +479,9 @@ a {
     .intro {
         box-sizing: border-box;
         width: 100%;
-        height: 350px;
+        height: 330px;
         background-image: url(../imagens/hor.jpg);
         background-size: cover;
-        margin-bottom: 2%;
         padding-top: 6%;
         padding-left: 10%;
         padding-right: 2%;
@@ -567,7 +592,7 @@ a {
         width: 100%;
         height: 160px;
         padding: 2em;
-        padding-bottom: 15%;
+        padding-bottom: 10%;
         text-align: left;
     }
     
@@ -575,7 +600,7 @@ a {
         box-sizing: border-box;
         width: 100%;
         font-family: helvetica-neue-medium; 
-        font-size: 4em;
+        font-size: 2em;
         background-color: rgba(256, 256, 256, 0.4);
         padding-top: 10%;
     }
@@ -583,91 +608,97 @@ a {
     .fontemes {
         box-sizing: border-box;
         font-family: helvetica-neue-medium; 
-        font-size: 1.5em;
+        font-size: 1em;
         background-color: rgba(256, 256, 256, 0.4);
         height: 100%;
         padding-bottom: 12%;
     }
     
     .dia1 {
+        display: inline-block;
         box-sizing: border-box;
         width: 100%;
         height: 100%;
         text-align: center;
-        border-top: 10px solid black;
+        border-top: 5px solid black;
         box-shadow: 2px 2px 2px grey;
         cursor: pointer;
     }
     
     .dia1:hover {
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(256, 256, 256, 1);
     }
     
     .descridia1 {
+        display: inline-block;
         box-sizing: border-box;
-        width:95%;
-        height: 160px;
-        font-size: 0.75em;
+        width:100%;
+        height: 80px;
+        font-size: 1em;
         text-align: center;
         color: white;
         text-align: justify;
         padding: 1em;
-        border-top: 10px solid black;
+        border-top: 5px solid black;
         background-color:rgba(0,0,0,0.8);
         box-shadow: 2px 2px 2px grey;
     }
     
     .dia2 {
+        display: inline-block;
         box-sizing: border-box;
         width: 100%;
         height: 100%;
         text-align: center;
-        border-top: 10px solid black;
+        border-top: 5px solid black;
         box-shadow: 2px 2px 2px grey;
         cursor: pointer;
     }
     
     .dia2:hover {
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(256, 256, 256, 1);
     }
     
     .descridia2 {
+       display: inline-block;
         box-sizing: border-box;
-        width:95%;
-        height: 160px;
-        font-size: 0.75em;
+        width:100%;
+        height: 80px;
+        font-size: 1em;
         text-align: center;
         color: white;
         text-align: justify;
         padding: 1em;
-        border-top: 10px solid black;
+        border-top: 5px solid black;
         background-color:rgba(0,0,0,0.8);
         box-shadow: 2px 2px 2px grey;
     }
     
     .dia3 {
+        display: inline-block;
         box-sizing: border-box;
         width: 100%;
         height: 100%;
         text-align: center;
-        border-top: 10px solid black;
+        border-top: 5px solid black;
         box-shadow: 2px 2px 2px grey;
         cursor: pointer;
     }
     
     .dia3:hover {
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(256, 256, 256, 1);
     }
     .descridia3 {
+        display: inline-block;
         box-sizing: border-box;
-        width:95%;
-        height: 160px;
-        font-size: 0.75em;
+        width:100%;
+        height: 80px;
+        font-size: 1em;
         text-align: center;
         color: white;
         text-align: justify;
         padding: 1em;
-        border-top: 10px solid black;
+        border-top: 5px solid black;
         background-color:rgba(0,0,0,0.8);
         box-shadow: 2px 2px 2px grey;
     }
@@ -775,6 +806,7 @@ a {
         padding: 2em;
         background-color: rgba(256, 256, 256, 0.5);
         box-shadow: 2px 2px 2px grey;
+        border: 1px solid #B5B5B5;
     }
     
     .formt {
@@ -842,7 +874,6 @@ a {
         font-family: Raleway-SemiBold;
     }
     
-    
     .textodois {
         box-sizing: border-box;
         text-align: center;
@@ -894,35 +925,41 @@ a {
     .redes1 {
         height: 45px;
         width: 45px;
-        background-image: url(../imagens/soundcloudlogo.png);
-        background-size: cover;
-        background-repeat: no-repeat;
     }  
     
-    .redes1:hover {
+    .soundcloud {
+        height: 45px;
+        width: 45px;
+        background-image: url(../imagens/soundcloudlogo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }   
+    
+    .soundcloud:hover {
         height: 45px;
         width: 45px;
         background-image: url(../imagens/soundcloudlogover.png);
-    }   
+        background-size: contain;
+        background-repeat: no-repeat;
+    } 
     
-    .redes2 {
+    .facebook{
         height: 45px;
         width: 45px;
         background-image: url(../imagens/facebooklogo.png);
         background-size: contain;
         background-repeat: no-repeat;
-    }  
+    }
     
-    .redes2:hover {
+    .facebook:hover{
         height: 45px;
         width: 45px;
-        display:inline-block;
-        background-size: contain;
         background-image: url(../imagens/facebooklogover.png);
+        background-size: contain;
         background-repeat: no-repeat;
-    }    
+    }
     
-    .redes3 {
+    .instagram {
         height: 45px;
         width: 45px;
         background-image: url(../imagens/instagramlogo.png);
@@ -930,14 +967,13 @@ a {
         background-repeat: no-repeat;
     }  
     
-    .redes3:hover {
+    .instagram:hover {
         height: 45px;
         width: 45px;
-        display:inline-block;
-        background-size: contain;
         background-image: url(../imagens/instagramlogover.png);
+        background-size: contain;
         background-repeat: no-repeat;
-    }
+    }  
     
 }
 
@@ -956,9 +992,6 @@ a {
         float: left;
     }
     
-    .hambt {
-        display: none;
-    }    
     
     .tituloinicialt {
         position: absolute;
@@ -993,7 +1026,7 @@ a {
         width: 100%;
         box-sizing: border-box;
         font-family: gadugi;
-        font-size: 0.7em;
+        font-size: 0.8em;
         text-align: justify;
     }
     
@@ -1001,7 +1034,7 @@ a {
         width: 100%;
         box-sizing: border-box;
         font-family: gadugi;
-        font-size: 1.6em;
+        font-size: 1.9em;
         text-align: justify;
     }  
     
@@ -1012,22 +1045,21 @@ a {
         font-family: Raleway-SemiBold;
         font-size: 1.5em;
         border-left: 4px solid white;
-        padding-left: 1em;
+        padding-left: 0.8em;
         text-align: justify;
     } 
     
     .paramaist {
-        width: 45%;
+        width: 10%;
         box-sizing: border-box;
         text-align: center;
-        height: 45px;
+        height: 100px;
         box-sizing: border-box;
-        background-color: #161f27;
         color: white;
         padding: 0.5em;
-        padding-top: 0.7em;
+        padding-top: 0.9em;
         opacity: 1;
-        margin-top: 25%;
+        margin-top: 15%;
         cursor: pointer;
         font-size: 1em;
         margin-left: auto;
@@ -1038,24 +1070,23 @@ a {
     }
     
     .paramaist:hover {
-        width: 45%;
+         width: 10%;
         box-sizing: border-box;
         text-align: center;
-        height: 45px;
+        height: 100px;
         box-sizing: border-box;
-        background-color: #161f27;
         color: white;
         padding: 0.5em;
-        padding-top: 0.7em;
+        padding-top: 0.9em;
         opacity: 1;
-        margin-top: 25%;
+        margin-top: 15%;
         cursor: pointer;
         font-size: 1em;
         margin-left: auto;
         margin-right: auto;
         border-left: 2px solid white;
         border-right: 2px solid white;
-        font-family: Raleway-Bold;  
+        font-family: Raleway-Bold;      
     }
         
     
@@ -1094,13 +1125,20 @@ a {
         color: black;
         text-align: justify;
         width: 100%;
-        height: 330px;
+        height: 240px;
         font-size: 1em;
         padding-left: 2em;
         padding-right: 2em;
         padding-top: 2%;
         background-color: white;
-    }  
+    }     
+    
+    .fotovideot {
+        box-sizing: border-box;
+        width: 90%;
+        height: 300px;
+        border: 5px solid white; 
+    }
     
     .candidatot {
         box-sizing: border-box;
@@ -1108,7 +1146,7 @@ a {
         color: black;
         text-align: justify;
         width: 100%;
-        height: 380px;
+        height: 300px;
         font-size: 1em;
         padding-left: 2em;
         padding-right: 2em;
@@ -1126,9 +1164,7 @@ a {
     }
     
     .fotoapt {
-        box-sizing: border-box;
-        width: 90%;
-        height: 240px;
+       display: none;
     }
     
     .nofoto {
@@ -1139,27 +1175,115 @@ a {
         box-sizing: border-box;
         display: inline-block;
         width: 100%;
-        height: 280px; 
+        height: 320px; 
         padding: 0;
+        margin-bottom: 5%;
     }
     
     .eventost {
+        display: none;
+    }   
+    
+    .datat {
+        display: block;
         box-sizing: border-box;
         width: 100%;
-        height: 160px;
+        height: 200px;
         padding: 2em;
-        padding-left:13%;
+        padding-left:10%;
         text-align: left;
+    }    
+    
+    .ismtlogot {
+        border: 2px solid white;
+        margin-bottom: 5%;
+        margin-left: 30%;
+    }
+    
+    .multlogot {
+        border: 2px solid white;
+        margin-bottom: 5%;
+        margin-left: 25%;
     }
     
     .questiont {
         box-sizing: border-box;
+        width: 10%;
+        height: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#3A5FCD;
+        color: #4682B4;
+        font-family: Raleway-SemiBold;
+        box-shadow: 2px 2px 2px grey;
+        font-size: 1.1em;
+        padding-top: 0.4em;
+        padding-right: auto;
+        padding-left: auto;
+        color: black;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-bottom: 2%;
+        cursor: pointer;
+    }
+    
+    .headert {
+        display: none;
+    }
+    
+    .painelhambcandidatot {
+        position: absolute;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.95);
+        height:3880px;
         width: 100%;
-        padding: 1em;
-        font-family: Raleway-Bold;
-        font-size: 1em;
+        z-index: +1;
+        color: white;
+        padding-top:25%;
+        text-align: center;
+    }
+    
+    .hambt {
+        box-sizing: border-box;
+        display: block;
+        text-align: right;
+        width: 100%;
+        padding-right: 4%;
+        padding-top: 15px;
+        background-color: #161f27;
+    }
+    
+    .menutablet {
+        box-sizing: border-box;
+        width: 100%;
+        background-color: #161f27;   
+        height: 60px;
+    }
+    
+    .botaohamb {
+        width: 30%;
+        height: 45px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.5em;
+        font-size: 1.5em;
+        padding-top: 4%;
+        color: black;
+        font-family: gadugi;
+        margin-bottom: 2%;
         background-color: white;
-        margin-bottom: 1%;
+    }    
+    
+    .painelhambcandidatom {
+        position: absolute;
+        box-sizing: border-box;
+        background-color: rgba(22, 31, 39, 0.95);
+        height:3880px;
+        width: 100%;
+        z-index: +1;
+        color: white;
+        padding-top:25%;
+        text-align: center;
     }
     
 }
@@ -1183,12 +1307,13 @@ a {
         width: 100%;
         padding-right: 4%;
         padding-top: 15px;
+        background-color: #161f27;
     }
     
     .menum {
         box-sizing: border-box;
         width: 100%;
-        background-color: black;   
+        background-color: #161f27;
         height: 60px;
     }
     
@@ -1204,10 +1329,10 @@ a {
         text-align: center;
     }
     
-    .painelhambcandidato {
+    .painelhambcandidatom {
         position: absolute;
         box-sizing: border-box;
-        background-color: rgba(0, 0, 0, 0.95);
+        background-color: rgba(22, 31, 39, 0.95);
         height:3880px;
         width: 100%;
         z-index: +1;
@@ -1251,17 +1376,17 @@ a {
     }    
     
     .paramaism {
-        width: 45%;
+        width: 10%;
         box-sizing: border-box;
         text-align: center;
-        height: 45px;
+        height: 70px;
         box-sizing: border-box;
-        background-color: #161f27;
         color: white;
         padding: 0.5em;
-        padding-top: 0.7em;
+        background-color: #161f27;
+        padding-top: 0.4em;
         opacity: 1;
-        margin-top: 25%;
+        margin-top: 15%;
         cursor: pointer;
         font-size: 1em;
         margin-left: auto;
@@ -1272,24 +1397,23 @@ a {
     }
     
     .paramaism:hover {
-        width: 45%;
+        width: 10%;
         box-sizing: border-box;
         text-align: center;
-        height: 45px;
+        height: 70px;
         box-sizing: border-box;
-        background-color: #161f27;
         color: white;
         padding: 0.5em;
-        padding-top: 0.7em;
+        padding-top: 0.4em;
         opacity: 1;
-        margin-top: 25%;
+        margin-top: 15%;
         cursor: pointer;
         font-size: 1em;
         margin-left: auto;
         margin-right: auto;
         border-left: 2px solid white;
         border-right: 2px solid white;
-        font-family: Raleway-Bold; 
+        font-family: Raleway-Bold;    
     }
     
     .assinaturam {
@@ -1312,13 +1436,7 @@ a {
     }
     
     .questionm {
-        box-sizing: border-box;
-        width: 100%;
-        padding: 1em;
-        font-family: Raleway-Bold;
-        font-size: 1.2em;
-        background-color: white;  
-        margin-bottom: 1%;
+       display: none;
     }
     
     .infoprovedorm {
@@ -1327,7 +1445,35 @@ a {
         text-align: justify;
         width: 100%;
         font-size: 1em;
-    } 
+    }    
+    
+    .iconem{
+        height: 35px;
+        width: 97%;
+        margin-top: 20%;
+        text-align: left;
+        background-image: url(../imagens/azull.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .promocaom {
+        vertical-align: baseline;
+        height: 35px;
+        box-sizing: border-box;
+        text-align: left;
+        width: 100%;
+        font-family: Raleway-Bold;
+        color: white;
+        font-size: 1em;
+        padding-top: 10px;
+        margin-top: 5%;
+        padding-left: 20px;
+        vertical-align: middle;
+        border-right: 5px solid #003853;
+        background-color:rgba(0, 0, 0, 0.5);
+        text-shadow: 1px 1px 1px black;
+    }
     
     .infopromocaom {
         box-sizing: border-box;
@@ -1390,7 +1536,7 @@ a {
         width: 100%;
         box-sizing: border-box;
         font-family: gadugi;
-        font-size: 0.5em;
+        font-size: 0.9em;
         text-align: justify;
     }
     
@@ -1398,9 +1544,9 @@ a {
         width: 100%;
         box-sizing: border-box;
         font-family: gadugi;
-        font-size: 1.2em;
+        font-size: 2.1em;
         text-align: justify;
-        padding-bottom: 5%;   
+        padding-bottom: 2%;   
     }
     
     .ismtsubtitulom {
@@ -1412,7 +1558,7 @@ a {
         padding-left: 0;
         border: none;        
         border-top: 2px solid white;
-        padding-top: 5%;
+        padding-top: 2%;
     }
 
     .filtrom {
@@ -1420,7 +1566,7 @@ a {
         float: right;
         padding: 2em;
         padding-left: 3em;
-        padding-top: 2.5em;
+        padding-top:1em;
         width: 100%;
         height: 180px;
         text-align: center;
@@ -1429,10 +1575,12 @@ a {
     
     
     .fotointrom {
+        box-sizing: border-box;
         width: 100%;
         height: 180px;
-        background-image: url(../imagens/intro.jpg);
+        background-image: url(../imagens/introm.jpg);
         background-size:cover;
+        padding-right: 50%;
         background-repeat: no-repeat;
     }
     
@@ -1450,13 +1598,101 @@ a {
     }
     
     .eventosm {
+       display: none;
+    }
+    
+    .datasm {
+        display: block;
         box-sizing: border-box;
         width: 100%;
-        height: 160px;
+        height: 200px;
         padding: 2em;
         padding-left:10%;
         text-align: left;
     }
+    
+    .headerm {
+        display: none;
+    }
+    
+    .fotosobjetivosm {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+        height: 340px;  
+        background-color: rgba(256, 256, 256, 0.5);  
+    }
+    
+    .   
+    
+    .morem {
+        background-image: url(../imagens/more.png);
+        background-size: contain;    
+        background-repeat: no-repeat;
+        margin-right: auto;
+        margin-left: auto;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .fotoapm {
+        display: none;
+    }    
+    
+    .ismtlogo {
+        border: 2px solid white;
+        margin-left: 35%;
+        margin-bottom: 5%;
+    }
+    
+    .multlogom {
+        border: 1px solid white;
+        margin-left: 35%;
+        margin-bottom: 5%;
+        margin-left: 40%;
+    }  
+    
+    .redes1m {
+        height: 45px;
+        width: 45px;
+    } 
+    
+    .soundcloud{
+        height: 45px;
+        width: 45px;
+        background-image: url(../imagens/soundcloudlogo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .redes2m {
+        height: 45px;
+        width: 45px;
+    }
+    
+    .facebook{
+        height: 45px;
+        width: 45px;
+        background-image: url(../imagens/facebooklogo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .redes3m {
+        height: 45px;
+        width: 45px;
+    }    
+    
+    .instagram {
+        height: 45px;
+        width: 45px;
+        background-image: url(../imagens/instagramlogo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }    
+    
 }
 
 .row:before, .row:after {
